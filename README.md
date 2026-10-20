@@ -1,5 +1,3 @@
-Markdown
-
 # Owl Store • PlayStation 4 FPKG Hub & Manager
 
 > A modern console interface application built with **Next.js**, designed to run natively as an packaged **`.pkg`** application on the **PlayStation 4 (Orbis OS)**, featuring full navigation via **DualShock 4 / Gamepad API** and direct communication with the **Remote Package Installer (RPI / GoldHEN)**.
