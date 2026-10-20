@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 // Altere para a URL da sua Vercel ou IP do seu servidor na rede local
-#define OWL_STORE_URL "https://owlps4store.vercel.app/"
+#define OWL_STORE_URL "http://192.168.1.100:3000"
 
 int main() {
     // Carrega o módulo nativo de WebDialog do Orbis OS
