@@ -1,29 +1,22 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// src/app/layout.tsx
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "OWL Store",
-  description: "A web-based PS4 package manager and installer, allowing users to browse, download, and install games, updates, and DLCs directly to their PlayStation 4 consoles.",
+  title: 'Owl Store • PS4 Package Manager',
+  description: 'Orbis OS FPKG Hub & Remote Package Installer',
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="pt-BR" className="dark">
+      <body className="bg-[#070709] text-[#fafafa] antialiased min-h-screen">
+        {children}
+      </body>
     </html>
   );
 }

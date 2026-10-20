@@ -1,6 +1,7 @@
 // src/app/page.tsx
 'use client';
 
+import './globals.css';
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import {
   Search,
