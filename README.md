@@ -65,7 +65,7 @@ Developed for educational and homebrew management purposes within the Orbis OS e
 ## 📁 Project Structure
 
   ```text
-  orbis-store/
+  OWL-Store
   ├── src/
   │   ├── app/
   │   │   ├── api/ps4/route.ts     # RPI / GoldHEN Proxy & Communicator (Port 12800)
